@@ -1,0 +1,23 @@
+span {
+    color: red;
+}
+
+#Heart {
+    animation: changeColor 5s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        fill: #EE4B2B;
+        opacity: 1;
+        translate: 50 50;
+        transform-origin: center;
+    }
+
+    100% {
+        fill: #880808;
+        transform: scale(2,2);
+        transform-origin: center;
+    }
+}
+
